@@ -1,0 +1,44 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"baseUrl": "src",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"noImplicitAny": false,
+		"noEmit": true,
+		"strictNullChecks": false,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"isolatedModules": true,
+		"pretty": true,
+		"typeRoots": [
+			"typings",
+			"node_modules/@types"
+		],
+		"lib": [
+			"dom",
+			"es2017"
+		],
+		"types": [
+			"node", "json"
+		]
+	},
+	"exclude": [
+		"./lib/angular-cli-1.7.x",
+		"./src/styles",
+		"./test/src",
+		"./test/config",
+		"./docs",
+		"./e2e",
+		"./tools/big-tools",
+		"typings",
+		"node_modules",
+		"dist"
+	],
+	"compileOnSave": false,
+	"buildOnSave": false
+}
